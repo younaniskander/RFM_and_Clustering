@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv("Clustered_data.csv")
+df = pd.read_csv("Cleaned_Data_Merchant_Level.csv")
 pivot_total = pd.read_csv("Clustered_pivot.csv")
 
 def get_Recommendation(User,num_of_rec) :
